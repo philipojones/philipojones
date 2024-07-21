@@ -7,56 +7,81 @@ The models are defined using the SQLModel class, which is a class that comes fro
 
 Define the querying logics in particular model
 """
-
+import sqlite3
 from typing import Optional
-from sqlmodel import SQLModel, Field, Session, select
 
-from src.database.connect import Connect
-from src.database.enums import IDTypes
-
-engine = Connect.connect()
-
-
-class User(SQLModel, table=True):
-    id: Optional[int] = Field(default=None, primary_key=True)
-    username: str
-    email: str
-    hashed_password: str
-    is_active: bool
-    is_superuser: bool
-    id_type: Optional[IDTypes] = Field(default=None)
-    id_number: Optional[str] = Field(default=None)
+class User:
+    def __init__(self, username: str, email: str, hashed_password: str,
+                 is_active: bool, is_superuser: bool,
+                 id_type: Optional[str] = None, id_number: Optional[str] = None):
+        self.username = username
+        self.email = email
+        self.hashed_password = hashed_password
+        self.is_active = is_active
+        self.is_superuser = is_superuser
+        self.id_type = id_type
+        self.id_number = id_number
 
     def save(self):
-        pass
+        conn = sqlite3.connect("books.db")
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT INTO users (username, email, hashed_password, is_active, is_superuser, id_type, id_number)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (self.username, self.email, self.hashed_password, self.is_active, self.is_superuser, self.id_type, self.id_number))
+        conn.commit()
+        conn.close()
 
     def update(self, **kwargs):
-        for key, value in kwargs.items():
-            setattr(self, key, value)
-        self.save()
+        conn = sqlite3.connect("books.db")
+        cursor = conn.cursor()
+        set_clause = ', '.join(f'{key} = ?' for key in kwargs.keys())
+        values = list(kwargs.values())
+        values.append(self.username)  # Use username to identify the user to update
+        cursor.execute(f"""
+            UPDATE users
+            SET {set_clause}
+            WHERE username = ?
+        """, (*values,))
+        conn.commit()
+        conn.close()
 
     def delete(self):
-        pass
+        conn = sqlite3.connect("books.db")
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM users WHERE username=?", (self.username,))
+        conn.commit()
+        conn.close()
 
     @classmethod
     def by_username(cls, username: str) -> Optional["User"]:
-        """
-        Gets a user by their username
-
-        Args:
-            username (str): The username of the user
-
-        Returns:
-            Optional["User"]: The user if found, else None
-        """
-        with Session(engine) as session:
-            statement = select(cls).where(cls.username == username)
-            results = session.exec(statement).first()
-            return results
-
+        conn = sqlite3.connect("books.db")
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM users WHERE username=?", (username,))
+        row = cursor.fetchone()
+        conn.close()
+        if row:
+            return cls(*row)
+        return None
 
 def create_tables():
-    """
-    Create the tables in the database
-    """
-    SQLModel.metadata.create_all(engine)
+    conn = sqlite3.connect("books.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT NOT NULL,
+            email TEXT NOT NULL,
+            hashed_password TEXT NOT NULL,
+            is_active INTEGER,
+            is_superuser INTEGER,
+            id_type TEXT,
+            id_number TEXT
+        )
+    """)
+    
+    conn.commit()
+    conn.close()
+
+# Call create_tables() to create the SQLite table if it doesn't exist
+create_tables()
