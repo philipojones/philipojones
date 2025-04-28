@@ -1,6 +1,8 @@
 # **👋 Hi, I'm Philipo Jonas Philipo**  
+ 
+### **🧠 Data Science & AI Enthusiast | Python Developer | Open-Source Contributor|💻 Full-Stack Developer | Python & JavaScript Enthusiast**  
 
-### **💻 Full-Stack Developer | Python & JavaScript Enthusiast**  
+Passionate about building intelligent systems with **Python, Machine Learning, and APIs**. I love turning data into insights and deploying scalable models.  
 
 ---
 
@@ -17,9 +19,17 @@
 ### **Frontend & Libraries**  
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)  
 
+### **📊 Data Science & AI**  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
+
 ### **Tools & DevOps**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)  
 
 ---
 
@@ -48,5 +58,5 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](philipepe05@gmail.com)  
 
 ---
-
+⭐ **Fun Fact:** I’m currently learning **LLMs (GPT, Llama 2)** and **MLOps**!
 ⭐ **Thanks for visiting!** ⭐  
