@@ -47,8 +47,8 @@ Passionate about building intelligent systems with **Python, Machine Learning, a
 | Project | Description | Tech Used |  
 |---------|-------------|-----------|  
 | **[Construction Price Prediction](https://github.com/PhilipoJonas/construction-price-prediction)** | ML model predicting building costs in Africa with AfricasTalking SMS API integration | Python, Scikit-Learn, FastAPI, AfricasTalking API |  
-| **[Spam Detection System](https://github.com/PhilipoJonas/spam-detection)** | NLP classifier for filtering spam messages (SMS/emails) | Python, TensorFlow, NLTK, Flask |  
-| **[SmartSpend AI](https://github.com/PhilipoJonas/smartspend)** | Intelligent expense/income planner with predictive analytics | React, Python, Prophet, Firebase |  
+| **[Spam Detection System](https://github.com/PhilipoJonas/spam-detection)** | NLP classifier for filtering spam messages (SMS/emails) | Python, NLTK, Fastapi|  
+| **[SmartSpend AI](https://github.com/PhilipoJonas/smartspend)** | Intelligent expense/income planner with predictive analytics | React, Python |  
 
 ---
 ## **📊 GitHub Stats**  
