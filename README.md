@@ -1,53 +1,52 @@
-# Fastapi Template
+# **👋 Hi, I'm Philipo Jonas Philipo**  
 
-This is a template for fastapi projects. It includes a basic structure for the project, a docker-compose file for development and a dockerfile for production.
+### **💻 Full-Stack Developer | Python & JavaScript Enthusiast**  
 
-The guides on [fastapi](https://fastapi.tiangolo.com/learn/), [SQLmodel ORM](https://sqlmodel.tiangolo.com/) and [docker](https://docs.docker.com/get-started/) are a good place to start.
+---
 
-## Structure
+## **🛠️ Tech Stack**  
 
-The project structure is as follows:
+### **Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
 
-```text
-└── Project Directory
-    ├── Virtual Environment(if you have to use one)
-    └── Project
-        ├── README.md
-        ├── README.Docker.md
-        ├── Dockerfile
-        ├── compose.yaml
-        ├── app.py
-        ├── requirements.txt
-        ├── .gitignore
-        └── src
-            ├── __init__.py
-            ├── database
-            │   ├── README.md
-            │   ├── __init__.py
-            │   ├── connect.py
-            │   ├── enums.py
-            │   └── models.py
-            ├── main
-            │   ├── README.md
-            │   ├── __init__.py
-            │   ├── app.py
-            │   └── routes
-            │       ├── README.md
-            │       ├── __init__.py
-            │       └── users.py
-            ├── schemas
-            │   ├── README.md
-            │   └── __init__.py
-            ├── tests
-            │   └── README.md
-            └── utilities
-                └── README.md
-```
+### **Backend Frameworks**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)  
 
-## Usage
+### **Frontend & Libraries**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)  
 
-1. Clone the repository
-2. Create a virtual environment and activate it
-    Resources on how to create a virtual environment:
-    - [Python Docs](https://docs.python.org/3/library/venv.html)
-    - [Real Python](https://realpython.com/python-virtual-environments-a-primer/)
+### **Tools & DevOps**  
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)  
+
+---
+
+## **🚀 My Projects**  
+
+| Project | Description | Tech Used |
+|---------|-------------|-----------|
+| **[FastAPI Task API](https://github.com/yourusername/fastapi-task-api)** | A RESTful API for task management | FastAPI, SQLAlchemy |
+| **[React Dashboard](https://github.com/yourusername/react-dashboard)** | Interactive data visualization dashboard | React, Chart.js |
+| **[Flask Auth App](https://github.com/yourusername/flask-auth-app)** | User authentication system | Flask, SQLite |
+
+---
+
+## **📊 GitHub Stats**  
+
+![Philipo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=philipojones&show_icons=true&theme=dark)  
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=philipojones&layout=compact&theme=dark)  
+
+---
+
+## **📫 Let's Connect!**  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/PhilipJones)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/@philipepe05)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](philipepe05@gmail.com)  
+
+---
+
+⭐ **Thanks for visiting!** ⭐  
