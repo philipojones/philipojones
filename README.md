@@ -1,6 +1,6 @@
 # **👋 Hi, I'm Philipo Jonas Philipo**  
  
-### **🧠 Data Science & AI Enthusiast | Python Developer | Open-Source Contributor|💻 Full-Stack Developer | Python & JavaScript Enthusiast**  
+### **🧠 Data Science & AI Enthusiast | Python Developer | Open-Source Contributor|💻 Full-Stack Developer | Python & JavaScript Enthusiast|sales and customer relation expert**  
 
 Passionate about building intelligent systems with **Python, Machine Learning, and APIs**. I love turning data into insights and deploying scalable models.  
 
@@ -50,6 +50,9 @@ Passionate about building intelligent systems with **Python, Machine Learning, a
 | **[Construction Price Prediction](https://github.com/PhilipoJonas/construction-price-prediction)** | ML model predicting building costs in Africa with AfricasTalking SMS API integration | Python, Scikit-Learn, FastAPI, AfricasTalking API |  
 | **[Spam Detection System](https://github.com/PhilipoJonas/spam-detection)** | NLP classifier for filtering spam messages (SMS/emails) | Python, NLTK, Fastapi|  
 | **[SmartSpend AI](https://github.com/PhilipoJonas/smartspend)** | Intelligent expense/income planner with predictive analytics | React, Python |  
+| **[United Youth Developers](https://unitedyouthdevelopers.or.tz)** | Youth-driven organization focused on empowering young people through technology, education, entrepreneurship, and community development initiatives in Tanzania           | Community Platform    |
+| **M-Elimu**                                                         | A digital learning platform currently under development aimed at helping Tanzanian youth access practical education, digital skills, and career development opportunities | Web Platform          |
+| **Proprio**                                                        | A smart real estate platform designed to support property valuation, invoicing, and property management to improve transparency and efficiency in the real estate sector  | PropTech Platform     |
 
 ---
 ## **📊 GitHub Stats**  
