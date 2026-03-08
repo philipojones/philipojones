@@ -18,6 +18,7 @@ Passionate about building intelligent systems with **Python, Machine Learning, a
 
 ### **Frontend & Libraries**  
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)  
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 
 ### **📊 Data Science & AI**  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
